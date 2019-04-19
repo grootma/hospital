@@ -11,7 +11,6 @@ import lombok.experimental.Accessors;
  * <p>
  * shifts 班制
  * </p>
- *
  * @author groot
  * @since 2019-04-16
  */
@@ -31,6 +30,11 @@ public class Shifts implements Serializable {
      * 班次系数
      */
     private BigDecimal coefficient;
+
+    /**
+     * 备注
+     */
+    private String remark;
 
     /**
      * 创建时间

@@ -29,6 +29,8 @@ public class Nurse implements Serializable {
      * 名字
      */
     private String name;
+    private String sex;
+    private String phone;
 
     /**
      * 等级

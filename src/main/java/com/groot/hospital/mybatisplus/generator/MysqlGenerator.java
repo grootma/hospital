@@ -69,7 +69,7 @@ public class MysqlGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(scanner("请输入模块名/上层包名"));
-        pc.setParent("com.groot.mybatisplus");
+        pc.setParent("com.groot.hospital");
         mpg.setPackageInfo(pc);
 
         // 自定义配置

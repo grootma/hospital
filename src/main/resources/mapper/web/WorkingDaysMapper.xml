@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.groot.hospital.web.mapper.WorkingDaysMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.groot.hospital.web.entity.WorkingDays">
+    <result column="id" property="id" />
+        <result column="duty75" property="duty75" />
+        <result column="duty" property="duty" />
+        <result column="duty88" property="duty88" />
+        <result column="watch" property="watch" />
+        <result column="watch88" property="watch88" />
+        <result column="medicine" property="medicine" />
+        <result column="medicine88" property="medicine88" />
+        <result column="custody" property="custody" />
+        <result column="custody_daytime88" property="custodyDaytime88" />
+        <result column="night88" property="night88" />
+        <result column="assist" property="assist" />
+        <result column="custody_night88" property="custodyNight88" />
+        <result column="complement88" property="complement88" />
+        <result column="complement75" property="complement75" />
+        <result column="nurse" property="nurse" />
+        <result column="month" property="month" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>
